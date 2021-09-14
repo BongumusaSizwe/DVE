@@ -26,6 +26,35 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+build
+dist
+_build
+docs/man/*.gz
+docs/source/api/generated
+docs/source/config.rst
+docs/gh-pages
+notebook/i18n/*/LC_MESSAGES/*.mo
+notebook/i18n/*/LC_MESSAGES/nbjs.json
+notebook/static/components
+notebook/static/style/*.min.css*
+notebook/static/*/js/built/
+notebook/static/*/built/
+notebook/static/built/
+notebook/static/*/js/main.min.js*
+notebook/static/lab/*bundle.js
+node_modules
+*.py[co]
+__pycache__
+*.egg-info
+*~
+*.bak
+.ipynb_checkpoints
+.tox
+.DS_Store
+\#*#
+.#*
+.pytest_cache
+src
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -51,28 +80,32 @@ coverage.xml
 .hypothesis/
 .pytest_cache/
 
-# Translations
-*.mo
-*.pot
+*.swp
+*.map
+.idea/
+Read the Docs
+config.rst
+*.iml
+/.project
+/.pydevproject
 
-# Django stuff:
-*.log
-local_settings.py
-db.sqlite3
-db.sqlite3-journal
+package-lock.json
+geckodriver.log
+*.iml
 
-# Flask stuff:
-instance/
-.webassets-cache
+# jetbrains IDE stuff
+*.iml
+.idea/
 
-# Scrapy stuff:
-.scrapy
+# ms IDE stuff
+*.code-workspace
+.history
+.vscode
 
-# Sphinx documentation
-docs/_build/
+# copied changelog
+docs/source/changelog.md
 
-# PyBuilder
-target/
+.jupyter_releaser_checkout
 
 # Jupyter Notebook
 .ipynb_checkpoints
@@ -84,12 +117,7 @@ ipython_config.py
 # pyenv
 .python-version
 
-# pipenv
-#   According to pypa/pipenv#598, it is recommended to include Pipfile.lock in version control.
-#   However, in case of collaboration, if having platform-specific dependencies or dependencies
-#   having no cross-platform support, pipenv may install dependencies that don't work, or not
-#   install all needed dependencies.
-#Pipfile.lock
+.jupyter_releaser_checkout
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
