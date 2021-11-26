@@ -159,3 +159,7 @@ dmypy.json
 # Dataset
 nyc_taxis.csv
 clean_nyc_taxis.csv
+clean.csv
+
+#logfiles
+*.log
