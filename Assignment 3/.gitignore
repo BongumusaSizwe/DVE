@@ -159,5 +159,9 @@ dmypy.json
 # Dataset
 nyc_taxis.csv
 clean_nyc_taxis.csv
-*.csv
+clean.csv
+
+#logfiles
 *.log
+
+14cancer.*
